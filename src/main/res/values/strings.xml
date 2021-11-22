@@ -1,0 +1,48 @@
+<!--
+    strings.xml
+    English string resources for GradeNet app
+    By Nicholas Verrochi
+    Last Modified: 5/9/18
+-->
+
+<resources>
+
+    <string name="app_name">GradeNet</string>
+    <string name="copyright_notice">Copyright 2018 Nicholas Verrochi</string>
+
+    <string name="welcome">Welcome, %s!</string>
+
+    <!-- LogInActivity -->
+    <string name="username_hint">user name</string>
+    <string name="password_hint">password</string>
+    <string name="log_in_button_label">log in</string>
+
+    <!-- Menus -->
+    <string name="teachers">edit teachers</string>
+    <string name="students">edit students</string>
+    <string name="classes">edit classes</string>
+    <string name="admins">edit administrators</string>
+    <string name="view_profile_button">view/edit profile</string>
+    <string name="view_grades_button">view/edit grades</string>
+
+    <!-- List menu -->
+    <string name="add_entry">add new entry</string>
+
+    <!-- Detail Views -->
+    <string name="name_label">name</string>
+    <string name="program_label">program</string>
+    <string name="gpa_label">gpa</string>
+    <string name="username_label">username</string>
+    <string name="password_label">password</string>
+    <string name="done_label">done</string>
+    <string name="department_label">department</string>
+    <string name="public_email_label">public email</string>
+    <string name="course_name_label">course name</string>
+    <string name="section_number_label">section number</string>
+    <string name="teacher_label">teacher: none</string>
+    <string name="add_teacher_button">assign teacher</string>
+    <string name="course_students_button">view/edit students</string>
+    <string name="student_name_label">student name</string>
+    <string name="grade_label">grade</string>
+
+</resources>

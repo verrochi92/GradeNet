@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    fragment_teacher_menu.xml
+    Layout for the teacher menu
+    By Nicholas Verrochi
+    Last Modified: 5/9/18
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView android:id="@+id/welcome_text_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:text="@string/welcome" />
+
+    <Button android:id="@+id/view_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_profile_button" />
+
+    <Button android:id="@+id/view_grades_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_grades_button" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    fragment_admin_menu.xml
+    Fragment layout for the admin menu
+    By Nicholas Verrochi
+    Last Modified: 4/24/18
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView android:id="@+id/welcome_text_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:text="@string/welcome" />
+
+    <Button android:id="@+id/students_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/students" />
+
+    <Button android:id="@+id/teachers_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/teachers" />
+
+    <Button android:id="@+id/classes_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/classes" />
+
+    <Button android:id="@+id/admins_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/admins" />
+
+</LinearLayout>
